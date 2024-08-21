@@ -1,32 +1,17 @@
 ## Namaste Food
 
-/**
- * Header
- *  - Logo
- *  - Nav Items
- * Body
- *  - Search
- *  - RestaurantContainer
- *  - RestaurantCard
- *  - Img
- *  - Name of Res, Star Rating, cuisine, delery tie
- * Footer
- *  - Copyright
- *  - Links
- *  - Address
- *  - Contact
- */
 
 
- Two Types of Export/Import
+
+## Two Types of Export/Import
 
   - Default Export/Import
-        export default Component/Variable;
-        import component from "path";
+       - export default Component/Variable;
+       - import component from "path";
   
   - Named Export/Import
-        export const Component;
-        import {component} from "path";
+        -  export const Component;
+        -  import {component} from "path";
 
 
 
@@ -76,14 +61,19 @@
 
 
 ## What are React Hooks?
-  React Hooks are functions that let you use state and other React features in functional components. They were introduced in React 16.8 to provide a more straightforward way to handle state and side effects in React components without using class components.
+  React Hooks are functions that let you use state and other React features in functional components. 
+  They were introduced in React 16.8 to provide a more straightforward way to handle state and side effects in React components without using class components.
 
 
 
 ## Why do we need a useState Hook?
-   The useState Hook is essential in React because it allows functional components to have state. Before the introduction of Hooks in React 16.8, functional components were stateless and could not manage their own state. This limitation made it challenging to use functional components for complex UIs that required state management.
+   The useState Hook is essential in React because it allows functional components to have state.
+   Before the introduction of Hooks in React 16.8, functional components were stateless and could not manage their own state.
+   This limitation made it challenging to use functional components for complex UIs that required state management.
 
-   The useState Hook solves this problem by providing a way to add state to functional components. It returns a pair of values: the current state and a function that updates it. This allows you to create components that can manage their own state and update the UI in response to changes in that state.
+   The useState Hook solves this problem by providing a way to add state to functional components.
+   It returns a pair of values: the current state and a function that updates it. 
+   This allows you to create components that can manage their own state and update the UI in response to changes in that state.
 
 
 
