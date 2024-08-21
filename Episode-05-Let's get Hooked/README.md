@@ -10,8 +10,8 @@
        - import component from "path";
   
   - Named Export/Import
-        -  export const Component;
-        -  import {component} from "path";
+     -   export const Component;
+     -   import {component} from "path";
 
 
 
